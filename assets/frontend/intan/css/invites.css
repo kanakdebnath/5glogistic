@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --brown: #BD9277;
+    --of-white: #FFFFFF;
+    --grey-white: #F1F1F1;
+    --black: #000000;
+    --dark-grey: #606060;
+    --white: #FFFFFF;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.jewlery-referral-header {
+    background-image: url(../img/main-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 40px;
+}
+
+#file-copy {
+    float: right;
+    margin-top: -23px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+    color: var(--brown);
+    font-size: 12px;
+}
+
+.jewlery-referral-header .col-md-12 h1 {
+    margin: 200px auto 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jewlery-referral-header .col-md-12 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.jewlery-referral-header .col-md-12 button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 25px;
+    gap: 10px;
+    width: 170px;
+    height: 35px;
+    background: var(--brown);
+    border: none;
+    border-radius: 25px;
+    margin: 0px auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+}
+
+.jewlery-profile-section {
+    margin: 0px 35px 50px;
+}
+
+.jewlery-profile-section .profile-detail {
+    text-align: center;
+}
+
+.jewlery-profile-section .profile-detail h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.jewlery-profile-section .profile-detail p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* input */
+.jewlery-profile-section .g-3 .col-md-6 label {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.jewlery-profile-section .g-3 .col-md-6 input {
+    background: #FFFFFF;
+    border: 1px solid rgba(96, 96, 96, 0.2);
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.jewlery-profile-section .g-3 .col-md-6 input::placeholder {
+    background-image: url(../img/input-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.jewlery-profile-section .g-3 .col-md-6 input:focus {
+    box-shadow: none;
+}
+
+.form-control {
+    padding: 2px 25px 7px;
+
+}
+
+/* input */
+
+.jewlery-profile-section .jewlery-about {
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 142px; */
+    background: #F1F1F1;
+    border: 1px solid #BD9277;
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 15px;
+}
+
+.jewlery-profile-section .jewlery-about h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BD9277;
+    margin-bottom: 10px;
+}
+
+.jewlery-profile-section .jewlery-about p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+.jewlery-profile-section .jewlery-about p:last-child {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #606060;
+}
+
+/* .jewlery-lavel-card {} */
+
+#lavel-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jewlrey-lavel-card .col-md-4 {
+    background-image: url(../img/jewlery-level-card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    /* width: 360px; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /* height: 200px;  */
+    padding: 20px 15px 13px 20px;
+}
+
+.jewlrey-lavel-card .col-md-4 h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.jewlrey-lavel-card .col-md-4 button {
+    background: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 15px;
+    color: var(--brown);
+}
+
+.jewlrey-lavel-card .col-md-4 table {
+    margin-top: 17px;
+    width: 100%;
+}
+
+.jewlrey-lavel-card .col-md-4 table th {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--black);
+    padding-bottom: 10px;
+}
+
+.jewlrey-lavel-card .col-md-4 table td {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    text-align: right;
+    color: var(--black);
+}
+
+#referral-page-btn button {
+    background: #BD9277;
+    border-radius: 60px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .jewlery-referral-header .col-md-12 h1 {
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .jewlery-referral-header {
+        height: 250px;
+    }
+
+    .jewlery-referral-header .col-md-12 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 71px auto 10px;
+        width: 273px;
+    }
+
+    .jewlery-referral-header .col-md-12 p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 239px;
+        margin: 0px auto;
+    }
+
+    .jewlery-referral-header .col-md-12 button {
+        padding: 9px 25px;
+        font-size: 18px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    #lavel-cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .jewlery-referral-header .col-md-12 h1 {
+        width: 250px;
+    }
+
+    .jewlery-referral-header .col-md-12 p {
+        width: 200px;
+    }
+
+    .jewlery-profile-section .jewlery-about h1 {
+        font-size: 12px;
+    }
+
+    .jewlery-profile-section .jewlery-about p,
+    .jewlery-profile-section .jewlery-about p:last-child {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    .jewlrey-lavel-card .col-md-4 table th {
+        font-size: 10px;
+    }
+
+    .jewlrey-lavel-card .col-md-4 table td {
+        font-size: 10px;
+    }
+}

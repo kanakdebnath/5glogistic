@@ -1,0 +1,56 @@
+[23-Jun-2022 09:28:33] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/mastqqvu/public_html/index.php on line 3
+[23-Jun-2022 09:28:35] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/mastqqvu/public_html/index.php on line 3
+[23-Jun-2022 09:28:36] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/mastqqvu/public_html/index.php on line 3
+[23-Jun-2022 09:28:37] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/mastqqvu/public_html/index.php on line 3
+[23-Jun-2022 09:28:41] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home/mastqqvu/public_html/index.php on line 3
+[23-Jun-2022 09:29:00 UTC] PHP Deprecated:  Optional parameter $slug declared before required parameter $id is implicitly treated as a required parameter in /home/mastqqvu/public_html/app/Http/Controllers/FrontendController.php on line 86
+[23-Jun-2022 09:29:00 UTC] PHP Deprecated:  Optional parameter $getLink declared before required parameter $id is implicitly treated as a required parameter in /home/mastqqvu/public_html/app/Http/Controllers/FrontendController.php on line 190
+[23-Jun-2022 09:32:22 UTC] PHP Deprecated:  Optional parameter $slug declared before required parameter $id is implicitly treated as a required parameter in /home/mastqqvu/public_html/app/Http/Controllers/FrontendController.php on line 86
+[23-Jun-2022 09:32:22 UTC] PHP Deprecated:  Optional parameter $getLink declared before required parameter $id is implicitly treated as a required parameter in /home/mastqqvu/public_html/app/Http/Controllers/FrontendController.php on line 190
+[19-Aug-2022 23:00:32 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:01:18 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:02:12 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:02:28 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:02:59 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:03:54 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:05:44 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:08:03 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:09:30 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:09:33 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:10:07 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:10:42 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:11:52 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 262
+[19-Aug-2022 23:14:47 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:15:22 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:16:41 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:16:51 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:17:55 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:19:05 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:19:35 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:20:39 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:20:47 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:20:50 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:21:08 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:21:28 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:23:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/mastqqvu/public_html/app/Http/Controllers/WebhookController.php:106
+Stack trace:
+#0 /home/mastqqvu/public_html/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\WebhookController->resetInvestment(Object(Illuminate\Http\Request))
+#1 /home/mastqqvu/public_html/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('resetInvestment', Array)
+#2 /home/mastqqvu/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(262): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\WebhookController), 'resetInvestment')
+#3 /home/mastqqvu/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#4 /home/mastqqvu/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\Routing\Ro in /home/mastqqvu/public_html/app/Http/Controllers/WebhookController.php on line 106
+[19-Aug-2022 23:24:13 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:24:22 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:24:39 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[19-Aug-2022 23:25:11 Asia/Jakarta] PHP Fatal error:  A void function must not return a value in /home/mastqqvu/public_html/app/Services/BasicService.php on line 263
+[20-Jan-2023 06:21:26 Asia/Jakarta] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/mastqqvu/test.geaindonesia.com/app/Http/Controllers/User/HomeController.php on line 5
+[30-Jan-2023 05:42:44 UTC] PHP Warning:  require_once(/home/mastqqvu/public_html/public/index.php): failed to open stream: No such file or directory in /home/mastqqvu/public_html/server.php on line 21
+[30-Jan-2023 05:42:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mastqqvu/public_html/public/index.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mastqqvu/public_html/server.php on line 21
+[14-Feb-2023 17:24:26 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 5.6.40. in /home/perhiasanintan/public_html/intan/vendor/composer/platform_check.php on line 25
+[28-Feb-2023 03:38:40 Asia/Jakarta] PHP Fatal error:  Trait 'App\Http\Controllers\User\Illuminate\Pagination\LengthAwarePaginator' not found in /home/perhiasanintan/public_html/app/Http/Controllers/User/HomeController.php on line 42
+[28-Feb-2023 13:49:58 UTC] PHP Warning:  require_once(/home/perhiasanintan/public_html/public/index.php): failed to open stream: No such file or directory in /home/perhiasanintan/public_html/server.php on line 21
+[28-Feb-2023 13:49:58 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/perhiasanintan/public_html/public/index.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/perhiasanintan/public_html/server.php on line 21
+[28-Feb-2023 14:28:26 UTC] PHP Warning:  require_once(/home/perhiasanintan/public_html/public/index.php): failed to open stream: No such file or directory in /home/perhiasanintan/public_html/server.php on line 21
+[28-Feb-2023 14:28:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/perhiasanintan/public_html/public/index.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/perhiasanintan/public_html/server.php on line 21
+[01-Mar-2023 18:27:37 UTC] PHP Warning:  require_once(/home/perhiasanintan/public_html/public/index.php): failed to open stream: No such file or directory in /home/perhiasanintan/public_html/server.php on line 21
+[01-Mar-2023 18:27:37 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/perhiasanintan/public_html/public/index.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/perhiasanintan/public_html/server.php on line 21

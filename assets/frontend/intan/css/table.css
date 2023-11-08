@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --brown: #BD9277;
+    --of-white: #FFFFFF;
+    --grey-white: #F1F1F1;
+    --black: #000000;
+    --dark-grey: #606060;
+    --white: #FFFFFF;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.table-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #606060;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.referral-table table thead {
+    background: #BD9277;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.table-separate {
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+
+/* th area */
+
+.table-separate thead th {
+    background-color: var(--brown);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.table-separate thead th:first-child {
+    padding: 7px 72px 8px 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+/* .table-separate thead th:nth-child(2) {} */
+
+.table-separate thead th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+/* th  area */
+
+
+/* td area */
+
+.table-separate tbody td {
+    background: #F1F1F1;
+    border-width: 0.5px 0.5px 0.5px 2px;
+    border-style: solid;
+    border-color: #BD9277;
+    /* border-radius: 10px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+
+.table-separate tbody td:first-child {
+    border-radius: 10px 0px 0px 10px;
+    border-right: none;
+}
+
+.table-separate tbody td:nth-child(2) {
+    /* border-radius: 10px 0px 0px 10px; */
+    border-right: none;
+    border-left: none;
+}
+
+.table-separate tbody td:nth-child(3) {
+    /* border-radius: 10px 0px 0px 10px; */
+    border-right: none;
+    border-left: none;
+}
+
+.table-separate tbody td:nth-child(4) {
+    /* border-radius: 10px 0px 0px 10px; */
+    border-right: none;
+    border-left: none;
+}
+
+.table-separate tbody td:last-child {
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+}
+
+
+/* td area */
+
+@media (max-width: 767px) {
+    .jewlery-referral-header .col-md-12 h1 {
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .jewlery-referral-header {
+        height: 250px;
+    }
+    .jewlery-referral-header .col-md-12 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 71px auto 10px;
+        width: 273px;
+    }
+    .jewlery-referral-header .col-md-12 p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 239px;
+        margin: 0px auto;
+    }
+    .jewlery-referral-header .col-md-12 button {
+        padding: 9px 25px;
+        font-size: 18px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {}
+
+@media (max-width: 320px) {}

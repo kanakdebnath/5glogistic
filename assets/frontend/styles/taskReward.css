@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .textOrange {
+      color: #ff3600;
+  }
+
+  .taskReward-bg {
+    background: url("../images/task_bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  .fs-small {
+    font-size: 13px;
+  }
+
+  /* Modal section */
+
+  .modal-dialog {
+    margin: 0;
+    position: fixed;
+  bottom: 0;
+  left: 0%;
+  right: 0%;
+  transform: translate(-50%, -50%); 
+  }
+

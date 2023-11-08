@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+:root {
+    --brown: #BD9277;
+    --of-white: #FFFFFF;
+    --grey-white: #F1F1F1;
+    --black: #000000;
+    --dark-grey: #606060;
+}
+
+
+/* =========== dashboard|invesment header start ========== */
+
+.header {
+    background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.6) 0%, rgba(181, 181, 181, 0) 79.6%), url(../img/main-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 71px 78px 50px;
+    margin-bottom: 0;
+}
+
+.header h1 {
+    color: var(--of-white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 71px;
+    margin-bottom: 0;
+}
+
+.header p {
+    color: var(--of-white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.header button {
+    padding: 9px 25px;
+    background: #BD9277;
+    border-radius: 25px;
+    border: none;
+    color: var(--of-white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+
+/* =========== dashboard|investment header end =========== */
+
+
+/* breadcrum  */
+
+.breadcrumb {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: var(--dark-grey);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.breadcrumb .active {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--brown);
+    padding-top: 9px;
+}
+
+
+/* end here */
+
+
+/* ======================= INVESMENT SECTION START HERE ==================== */
+
+.inves {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.inves h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--dark-grey);
+}
+
+
+/* ======================= INVESMENT SECTION END HERE ==================== */
+
+
+/* ============== dashboard card section start here ============== */
+
+.card-sec {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-sec-1 {
+    background-color: var(--of-white);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.card-sec-1 img {
+    padding-top: 20px;
+}
+
+.card-sec-1 h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-grey);
+}
+
+.card-sec-1 p {
+    color: var(--dark-grey);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.card-sec-1 span {
+    float: right;
+    margin-right: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.card-sec-1 strong {
+    float: right;
+    margin-right: 15px;
+    font-weight: 400;
+    color: #FFB400;
+}
+
+
+/* ============== dashboard card section end here ============== */
+
+@media only screen and (max-width: 320px) {
+    .header button {
+        padding: 9px 20px;
+    }
+
+    .header {
+        padding: 71px 20px 50px;
+    }
+}

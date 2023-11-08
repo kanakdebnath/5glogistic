@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --brown: #BD9277;
+    --of-white: #FFFFFF;
+    --grey-white: #F1F1F1;
+    --black: #000000;
+    --dark-grey: #606060;
+}
+
+body {
+    background: var(--grey-white);
+}
+
+.header-bgimg {
+    background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.6) 0%, rgba(181, 181, 181, 0) 79.6%), url(../img/main-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 200px 78px 149px;
+}
+
+.header-bgimg h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--of-white);
+    margin-bottom: 10px;
+}
+
+.header-bgimg p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--of-white);
+}
+
+.header-bgimg .btn {
+    background: var(--brown);
+    border-radius: 25px;
+    border: var(--brown);
+    padding: 9px 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--of-white);
+}
+
+.header-bgimg .btn:focus {
+    box-shadow: none;
+}
+
+.changePass-breadcrumbs {
+    padding-top: 20px;
+}
+
+.changePass-breadcrumbs .breadcrumb {
+    margin-bottom: 20px;
+}
+
+.changePass-breadcrumbs li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--brown) !important;
+}
+
+.changePass-breadcrumbs li a {
+    color: var(--dark-grey) !important;
+    text-decoration: none;
+}
+
+
+/*
+ CSS for the main interaction
+*/
+
+.tabset>input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,
+.tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),
+.tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),
+.tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),
+.tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5),
+.tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+    display: block;
+}
+
+.tabset>label {
+    position: relative;
+    display: inline-block;
+    padding: 7px 26px 8px;
+    border-bottom: 0;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    background: var(--grey-white);
+    border: 1px solid var(--brown);
+    border-radius: 15px;
+    color: var(--brown);
+}
+
+.tabset .chngePass-tab {
+    padding: 7px 17px 8px;
+}
+
+.tabset>label:hover,
+.tabset>input:focus+label {
+    position: relative;
+    display: inline-block;
+    border-bottom: 0;
+    cursor: pointer;
+    background: var(--brown);
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--of-white);
+}
+
+.tabset>input:checked+label {
+    background: var(--brown);
+    color: var(--of-white);
+}
+
+.tab-panel {
+    padding: 30px 0px 0px;
+}
+
+.tab-panel h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--dark-grey);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-inputs .form-label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--black);
+}
+
+.profile-inputs .form-control {
+    background: var(--of-white);
+    border: 1px solid rgba(96, 96, 96, 0.2);
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--black);
+    height: 35px;
+}
+
+.profile-inputs .form-control:focus {
+    box-shadow: none;
+}
+
+.profile-inputs .textarea-sec {
+    background: var(--of-white);
+    border: 1px solid rgba(96, 96, 96, 0.2);
+    border-radius: 10px;
+    height: 120px;
+}
+
+.profile-inputs .btn {
+    background: var(--brown);
+    border: 1px solid var(--brown);
+    border-radius: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--of-white);
+    padding: 9px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.profile-inputs .btn:focus {
+    box-shadow: none;
+}
+
+
+/* INPUTS STYLE START HERE */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .pro-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: var(--dark-grey);
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.profile-inputs .show-eye-icon {
+    float: right;
+    margin-top: -23px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2;
+    color: var(--brown);
+    font-size: 12px;
+}
+
+
+/* ====================================== MEDIA QUERIES START HERE ================================= */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .header-bgimg {
+        background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.6) 0%, rgba(181, 181, 181, 0) 79.6%), url(../img/mbl-header-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 71px 78px 50px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header-bgimg {
+        background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.6) 0%, rgba(181, 181, 181, 0) 79.6%), url(../img/mbl-header-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 71px 25px 50px;
+    }
+    .tabset .chngePass-tab {
+        padding: 7px 11px 8px;
+    }
+    .tabset>label {
+        padding: 7px 20px 8px
+    }
+}
+
+
+/* ====================================== MEDIA QUERIES END HERE ================================= */

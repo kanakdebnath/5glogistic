@@ -1,0 +1,19 @@
+@tailwind  base;
+@tailwind  components;
+@tailwind  utilities;
+
+
+@layer components {
+    .navlink {
+        @apply text-white
+    }
+    .navlink:hover {
+        @apply text-pirategold-400
+    }
+    .navlink-active {
+        @apply text-pirategold-400
+    }
+    .navlink-active:hover {
+        @apply text-pirategold-400
+    }
+}

@@ -1,0 +1,20 @@
+[28-Feb-2023 13:45:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/perhiasanintan/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/perhiasanintan/public_html/config/app.php on line 16
+[28-Feb-2023 15:27:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/perhiasanintan/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/perhiasanintan/public_html/config/database.php on line 18
+[01-Mar-2023 18:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/perhiasanintan/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/perhiasanintan/public_html/config/app.php on line 16
+[02-Mar-2023 08:18:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/perhiasanintan/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/perhiasanintan/public_html/config/cache.php on line 18
+[02-Mar-2023 12:25:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/perhiasanintan/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/perhiasanintan/public_html/config/cache.php on line 18

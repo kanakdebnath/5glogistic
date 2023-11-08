@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#jewlrey-modal {
+    max-width: 360px;
+    /* display: flex;
+    justify-content: center; */
+    margin: 240px auto;
+    background: #F1F1F1;
+    border-radius: 10px;
+}
+
+#jewlrey-modal .modal-content {
+    border: 1px solid #BD9277;
+    border-radius: 10px;
+}
+
+#jewlrey-modal .modal-header {
+    border: none;
+    justify-content: flex-start;
+}
+
+#jewlrey-modal .modal-header img {
+    margin-top: -50px;
+    border-radius: 10px;
+}
+
+#jewlrey-modal .modal-header .modal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060;
+    margin: 5px;
+}
+
+#jewlrey-modal .modal-body {
+    padding: 0px 20px 15px;
+}
+
+#jewlrey-modal .modal-body p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+#jewlrey-modal .modal-body button {
+    background: #BD9277;
+    border-radius: 15px;
+    height: 20px;
+    width: 100%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+    /* opacity: 1; */
+}
+
+@media (max-width: 370px) {
+    #jewlrey-modal {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    #jewlrey-modal {
+        max-width: 270px;
+    }
+
+    #jewlrey-modal .modal-header .modal-title {
+        font-size: 12px;
+    }
+}

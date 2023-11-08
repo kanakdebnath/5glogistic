@@ -1,0 +1,43 @@
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platSign":"Ss3adS0tHgiDZFRQ3W\/jHLd8QJWKbltd4Tcltgpm3g8qXEq84p1l+qjjAfWzcWW8GPHrT3Q7wGE6g+jW7QRLEJDrl+9RsSvgnmLowq4NEagbGobhW+Dfu88UT5rvO6mQVXHMlcPGrW4uW9xhshAI47daLnsFDq1HOdRKi8+1cLo=","platRespMessage":"params : mch no channel available"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : money is null or empty"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}
+{"platRespCode":"FAIL","platRespMessage":"params : number is error"}

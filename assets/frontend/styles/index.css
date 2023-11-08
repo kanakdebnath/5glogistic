@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textOrange {
+    color: #ff3600;
+}
+
+.bg-blue {
+    background: #097cff;
+    color: white;
+}
+
+.modal-dialog {
+  background: url(../images/newsDialog.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.modal-btn-style {
+  background: url(../images/icons/telegram.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  border: 1px solid skyblue;
+  border-radius: 50px;
+  padding: 15px 0;
+} 
+ 
+
+.top-banner {
+  background: url(../images/home-header-bg.png),
+    linear-gradient(180deg, #ffea38, #ffd01a);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}

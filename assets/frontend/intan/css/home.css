@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --brown: #BD9277;
+    --of-white: #FFFFFF;
+    --grey-white: #F1F1F1;
+    --black: #000000;
+    --dark-grey: #606060;
+    --white: #FFFFFF;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+.jewlery-header {
+    background-image: url(../img/main-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.jewlery-header .col-md-12 h1 {
+    margin: 200px auto 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #606060;
+}
+
+.jewlery-header .col-md-12 p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #7b7272;
+    margin-bottom: 10px;
+}
+
+.jewlery-header .col-md-12 button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 25px;
+    gap: 10px;
+    width: 170px;
+    height: 35px;
+    background: var(--brown);
+    border: none;
+    border-radius: 25px;
+    margin: 0px auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+}
+.installment-plan-section {
+    margin: 50px 0px 0px;
+}
+
+.cstm{
+    justify-content: center;
+}
+
+.installment-plan-section h1 {
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--dark-grey);
+    margin-bottom: 10px;
+    margin-top: 115px;
+}
+
+.installment-plan-section p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-grey);
+    margin-bottom: 20px;
+}
+
+.installment-plan-section #pills-tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px !important;
+}
+
+.installment-plan-section .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--white);
+    background: var(--brown);
+    border-radius: 15px;
+}
+
+.nav-pills .nav-link {
+    background: #F1F1F1;
+    border: 1px solid #BD9277;
+    border-radius: 15px;
+    color: var(--brown);
+}
+
+.installment-plan-section .nav-item button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 6px 30px 7px;
+}
+
+.installment-plan-section .nav-item:last-child button {
+    padding: 6px 40px 7px;
+}
+
+.jewlery-card-section .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jewlery-card-section .row .col-md-4 {
+    width: 360px;
+
+    background: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.jewlery-card-section .row .col-md-4 img {
+    margin: 20px 35px 20px 100px;
+}
+
+.jewlery-card-section .row .col-md-4 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+.jewlery-card-section .row .col-md-4 table {
+    margin: 20px 0px 30px 0px;
+}
+
+.jewlery-card-section .row .col-md-4 table th {
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--dark-grey);
+    padding: 5px 12px;
+}
+
+.jewlery-card-section .row .col-md-4 table td {
+    text-align: end;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--dark-grey);
+    padding: 5px 15px;
+}
+
+.jewlery-card-section .row .col-md-4 button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+    padding: 8px 118px;
+    background: var(--brown);
+    border-radius: 60px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* ribben */
+.jewlery-card-section .ribbon-1 span,
+.jewlery-card-section .ribbon-1 p,
+.jewlery-card-section .ribbon-1 h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: var(--white);
+    margin: 0px;
+    padding-top: 3px;
+}
+
+.jewlery-card-section .ribbon-1 p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 2px 0px;
+}
+
+[class^=ribbon-] {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+[class^=ribbon-]:before,
+[class^=ribbon-]:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+}
+
+.ribbon-1 {
+    width: 60px;
+    height: 78px;
+    background: var(--brown);
+    top: -6px;
+    left: -20px;
+    float: right;
+}
+
+.ribbon-1:before {
+    height: 0;
+    width: 0;
+    border-bottom: 6px solid var(--brown);
+    border-left: 6px solid transparent;
+    left: -6px;
+}
+
+.ribbon-1:after {
+    height: 0;
+    width: 0;
+    border-left: 30px solid var(--brown);
+    border-right: 30px solid var(--brown);
+    border-bottom: 10px solid transparent;
+    bottom: -9px;
+}
+
+.ribbon-content {
+    height: inherit;
+    margin-bottom: 0;
+    background: #37b7c7;
+    z-index: 100;
+}
+
+.ribbon-content:before {
+    height: 0;
+    width: 0;
+    border-top: 10px solid #26808b;
+    border-left: 10px solid transparent;
+    bottom: -10px;
+}
+
+.ribbon-content:after {
+    height: 0;
+    width: 0;
+    border-top: 10px solid #26808b;
+    border-right: 10px solid transparent;
+    right: 0;
+    bottom: -10px;
+}
+
+/* ribben */
+
+@media (max-width: 767px) {
+
+    .jewlery-header .col-md-12 h1 {
+        width: 500px;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+    .jewlery-header {
+        height: 250px;
+    }
+
+    .jewlery-header .col-md-12 h1 {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 10px auto 10px;
+        width: 273px;
+    }
+
+
+    .jewlery-header .col-md-12 p {
+        font-size: 12px;
+        line-height: 15px;
+        width: 239px;
+        margin: 0px auto;
+    }
+
+    .jewlery-header .col-md-12 button {
+        padding: 9px 25px;
+        font-size: 18px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    .installment-plan-section {
+        margin: 40px 0px 30px;
+    }
+
+    .installment-plan-section h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .installment-plan-section p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .jewlery-card-section .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .jewlery-card-section .row .col-md-4 {
+        width: 100%;
+        /* height: 355px; */
+        margin-bottom: 35px;
+    }
+   
+}
+
+@media (max-width: 405px) {
+    .jewlery-card-section .row .col-md-4 button {
+        padding: 8px 90px;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    .jewlery-card-section .row .col-md-4 button {
+        padding: 8px 70px;
+    }
+    
+
+    .jewlery-card-section .row .col-md-4 img {
+        margin: 20px 0px 10px;
+    }
+
+    .installment-plan-section .nav-item:last-child button {
+        padding: 6px 30px 7px;
+    }
+
+    .installment-plan-section .nav-item button {
+        padding: 6px 20px 7px;
+    }
+
+    .jewlery-card-section .row .col-md-4 table td {
+        font-size: 8px;
+        line-height: 12px;
+        padding: 5px 8px;
+    }
+
+    .jewlery-card-section .row .col-md-4 table th {
+        font-size: 9px;
+        line-height: 12px;
+        padding: 5px 8px;
+    }
+}
+
+@media (max-width: 320px) {
+    .jewlery-card-section .row .col-md-4 button {
+        padding: 8px 50px;
+    }
+    
+
+    .ribbon-1 {
+        left: -12px;
+    }
+
+    .installment-plan-section .nav-item:last-child button {
+        padding: 6px 17px 7px;
+    }
+
+    .installment-plan-section .nav-item button {
+        padding: 6px 10px 7px;
+    }
+
+    .jewlery-header .col-md-12 h1 {
+        width: 250px;
+    }
+
+    .jewlery-header .col-md-12 p {
+        width: 200px;
+    }
+
+    .ribbon-1 {
+        width: 45px;
+        height: 60px;
+    }
+
+    .ribbon-1:after {
+        border-left: 22px solid var(--brown);
+        border-right: 23px solid var(--brown);
+    }
+
+    .jewlery-card-section .ribbon-1 span,
+    .jewlery-card-section .ribbon-1 p,
+    .jewlery-card-section .ribbon-1 h6 {
+        font-size: 8px;
+        line-height: 10px;
+        padding-top: 2px;
+    }
+
+    .jewlery-card-section .ribbon-1 p {
+        font-size: 10px;
+    }
+}
+
+#modalCrossButton{
+    position: absolute;
+    top: 10px;
+    color: #bd9277;
+    display: block;
+    right: 10px;
+    border-radius: 8px;
+    padding: 2px 8px;
+    border: 2px solid #bd9277;
+}

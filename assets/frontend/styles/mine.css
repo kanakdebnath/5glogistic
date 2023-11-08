@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.textOrange {
+  color: #ff3600;
+}
+
+body {
+  background: #f0f0f0be;
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fs-small {
+  font-size: 14px;
+}
+
+.w-22 {
+  width: 22px;
+}
+
+.top-banner {
+  background: url("../images/mine_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 220px;
+}

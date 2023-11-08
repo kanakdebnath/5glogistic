@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textOrange {
+    color: #ff3600;
+}
+
+.bg-blue {
+    background: #097cff;
+    color: white;
+}
+
+.bg-yellow {
+  background: #ffc61e;
+}
+.text-yellow {
+  color: #ffc61e;
+}
+
+
+  .fs-small {
+    font-size: 13px;
+  }
+
+  /* Modal section */
+
+  .modal-dialog {
+    margin: 0;
+    position: fixed;
+  bottom: 0;
+  left: 0%;
+  right: 0%;
+  transform: translate(-50%, -50%); 
+  }
+
+  /*account banner*/
+  .account-banner-top{
+  	position: relative;
+  }
+
+ .top-left {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
+.top-center {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+  text-align: center;
+}
+
+.income-header{
+	/*font-size: 20px;*/
+    font-weight: 900;
+    color: #ffd01a;
+    text-shadow: 0 1px 0 #000;
+}
+header a{
+	text-decoration: none;
+}
+
+
+.team-top-banner {
+  	height: 165px;
+	color: #000;
+	text-align: left;
+	margin-top: 10px;
+	background: url(../images/team_card.png) no-repeat 50%/100%;
+	text-align: center;
+	background-position: center;
+  background-size: cover;
+}
+
+.w-wrap {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+	

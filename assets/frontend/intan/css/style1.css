@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+:root {
+    --brown: #BD9277;
+    --of-white: #FFFFFF;
+    --grey-white: #F1F1F1;
+    --black: #000000;
+    --dark-grey: #606060;
+    --white: #FFFFFF;
+}
+
+
+/* =========== dashboard header start ========== */
+
+.header {
+    background-image: linear-gradient(180deg, rgba(109, 109, 109, 0.6) 0%, rgba(181, 181, 181, 0) 79.6%), url(../img/main-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 71px 78px 50px;
+    margin-bottom: 0;
+}
+
+.header h1 {
+    color: var(--of-white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 71px;
+    margin-bottom: 0;
+}
+
+.header p {
+    color: var(--of-white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.header button {
+    padding: 9px 25px;
+    background: #BD9277;
+    border-radius: 25px;
+    border: none;
+    color: var(--of-white);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+
+/* =========== dashboard header end =========== */
+
+
+/* =========== dashboard banner start =========== */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.banner h1 {
+    color: var(--black);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.banner p {
+    color: var(--black);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 10px;
+}
+
+
+/* =========== dashboard banner end ============= */
+
+
+/* ================ dashboard button section start =============== */
+
+.btn-sec {
+    padding-top: 12px;
+}
+
+.btn-sec button {
+    padding: 8px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    background-color: var(--brown);
+    color: var(--of-white);
+    border-radius: 85px;
+    border: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* ================ dashboard button section end =============== */
+
+
+/* ================ dashboard investment section start ========== */
+
+.investment button {
+    background-color: var(--brown);
+    margin-top: 20px;
+    padding: 5px 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: var(--of-white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 65px;
+}
+
+.draw {
+    background: linear-gradient(0deg, rgba(255, 223, 203, 0.73), rgba(255, 223, 203, 0.73)), url(image.png);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.withdraw h1 {
+    color: var(--black);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 19px;
+}
+
+.withdraw p {
+    color: var(--black);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.withdraw button {
+    background-color: var(--brown);
+    border-radius: 60px;
+    padding: 6px 70px;
+    color: var(--of-white);
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 19px;
+    display: flex;
+}
+
+.withdraw img {
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+.recently {
+    margin-top: 20px;
+    background: url(../img/profit.jpg);
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.profit h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.profit p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--black);
+    padding-top: 20px;
+}
+
+.profit span {
+    float: right;
+    color: #FD8484
+}
+
+.profit strong {
+    float: right;
+    font-weight: 500;
+}
+
+.profit h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--black);
+}
+
+
+/* ================ dashboard investment section end ========== */
+
+@media only screen and (max-width: 600px) {
+    .btn-sec button {
+        padding: 6px 15px;
+        font-size: 8px;
+    }
+
+    .btn-sec img {
+        position: relative;
+        right: 2px;
+    }
+
+    .header button {
+        font-size: 10px;
+    }
+
+    .investment button {
+        padding: 10px 100px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 820px) and (max-width: 991px) {
+    .draw {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .recently {
+        margin-bottom: 0px;
+    }
+
+    .profit {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .recently {
+        margin-bottom: 0px;
+    }
+
+    .profit {
+        margin-bottom: 100px;
+    }
+}
+
+.btn-sec button {
+    width: 100%;
+}

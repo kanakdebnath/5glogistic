@@ -1,0 +1,108 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  margin: 0 auto;
+  color: #fff;
+  background: #151D26;
+  font-family: sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+} */
+a {
+  text-decoration: none;
+}
+
+input[name="menu"] {
+  display: none
+}
+
+.menu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.list {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background: #BD9277;
+  position: relative;
+  margin: 0px auto;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.list .link-wrap {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.list .link-wrap>label {
+  color: #8e9399;
+  z-index: 999;
+  min-width: 68px;
+  max-width: 168px;
+  width: 25%;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px 12px;
+  text-align: center;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list .link-wrap>label>a>img,
+.list .link-wrap>label>span {
+  -webkit-transition: all .2s ease-in-out 0s;
+  transition: all .2s ease-in-out 0s;
+}
+
+.list .link-wrap>label>span {
+  height: 0;
+  display: block;
+  font-weight: 500;
+  -webkit-transform: translateY(45px);
+  transform: translateY(45px);
+}
+
+#one:checked~.list label[for="one"]>span,
+#two:checked~.list label[for="two"]>span,
+#three:checked~.list label[for="three"]>span,
+#four:checked~.list label[for="four"]>span {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  height: auto;
+  margin-top: 10px;
+}
+
+#one:checked~.list .link-wrap>label[for="one"],
+#two:checked~.list .link-wrap>label[for="two"],
+#three:checked~.list .link-wrap>label[for="three"],
+#four:checked~.list .link-wrap>label[for="four"] {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .list {
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+
+  }
+}
+
+/* @media (max-width: 480px) {
+  .list {
+    width: 100%;
+    height: 70px;
+  }
+} */
